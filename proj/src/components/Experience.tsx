@@ -8,23 +8,23 @@ const Experience = () => {
       company: 'Veerel Enterprises',
       role: 'Web Development',
       period: 'November 2024 - June 2025',
-      description: 'Created a billing website for admin purposes and an event management system for both client and admin using React (frontend) and Django (backend).',
-      tech: ['React', 'Admin Panel']
+      description: 'Contributed to the development of web applications using React.js, with hands-on experience in RESTful APIs, authentication, and database integration.',
+      tech: ['React', 'Flask', 'MySQL']
     },
     {
       company: 'Lux & Decibels',
       role: 'FullStack Development',
-      period: 'June 2025 - August 2025',
-      description: 'Worked on MySQL, React and Flask based projects, delivering full-stack solutions for client requirements.',
+      period: 'July 2025 - August 2025',
+      description: 'Worked on building and maintaining admin and user-facing web applications using React.js, Flask, and MySQL, with exposure to backend logic and API integration..',
       tech: ['MySQL', 'React', 'Flask']
     },
-    {
-      company: 'Techie Nutpam',
-      role: 'Frontend Development',
-      period: 'May 2025 - June 2025',
-      description: 'Utilized React and Bootstrap for creating a static company website with animations and modern UI/UX design.',
-      tech: ['React',  'Animations']
-    }
+    // {
+    //   company: 'Techie Nutpam',
+    //   role: 'Frontend Development',
+    //   period: 'May 2025 - June 2025',
+    //   description: 'Utilized React and Bootstrap for creating a static company website with animations and modern UI/UX design.',
+    //   tech: ['React',  'Animations']
+    // }
   ];
 
   const itemVariants = {

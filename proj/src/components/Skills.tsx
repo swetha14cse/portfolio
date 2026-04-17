@@ -34,7 +34,7 @@ const Skills = () => {
     title: 'Frontend Development',
     icon: Code,
     color: 'purple',
-    skills: ['React.js', 'JavaScript', 'HTML', 'CSS']
+    skills: ['React.js', 'HTML', 'CSS']
   },
   {
     title: 'Backend Development',
@@ -46,13 +46,24 @@ const Skills = () => {
     title: 'Programming Languages',
     icon: Boxes,
     color: 'green',
-    skills: ['C','C++', 'Java', 'Python','JavaScript']
+    skills: ['C','C++', 'Java', 'Python']
+  },
+   {
+    title: "Core Concepts",
+    icon: Cloud,
+    color: "purple",
+    skills: [
+      "Operating Systems",
+      "Object-Oriented Programming (OOP)",
+      "Computer Networks",
+      "Data Structures",
+    ],
   },
   {
     title: 'Database & Tools',
     icon: Cloud,
     color: 'orange',
-    skills: ['MySQL', 'MongoDB', 'Git', 'GitHub', 'ServiceNow']
+    skills: ['MySQL','SQL', 'MongoDB', 'Git', 'GitHub', 'ServiceNow']
   }
 ];
 
@@ -65,10 +76,10 @@ const Skills = () => {
     { name: 'Django', icon: '🎯' },
     { name: 'ServiceNow', icon: '☁️' },
     { name: 'MongoDB', icon: '🍃' },
-    { name: 'MySQL', icon: '🐬' },
-    { name: 'PostgreSQL', icon: '🐘' },
-    { name: 'Google Cloud', icon: '☁️' },
-    { name: 'GenAI', icon: '🤖' }
+    { name: 'MySQL', icon: '🐬' }
+    // { name: 'PostgreSQL', icon: '🐘' },
+    // { name: 'Google Cloud', icon: '☁️' },
+    // { name: 'GenAI', icon: '🤖' }
   ];
 
   const getColorClasses = (color: string) => {

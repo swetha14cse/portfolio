@@ -185,7 +185,7 @@ const Certifications = () => {
           ))}
         </div>
 
-        <motion.div
+        {/* <motion.div
           className="bg-gradient-to-r from-slate-50 to-purple-50 rounded-2xl p-8 border-2 border-purple-200"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -208,7 +208,7 @@ const Certifications = () => {
               <div className="text-slate-600">Learning Journey</div>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       <AnimatePresence>

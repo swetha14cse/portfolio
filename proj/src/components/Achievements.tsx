@@ -346,8 +346,8 @@ const Achievements = () => {
     "Women's Hackathon by Naukri",
     "Idea Hackathon by E3L (June 2025)",
     "H@CIT Coding Hackathon (March 2025)",
-    "Ideathon at ILP (January 2024)",
-    "SIH Hackathon (September 2025)"
+    "SIH Hackathon (September 2025)",
+    "Qualified till Round 2 (District Level) in TN Skills Web Development Domain."
   ];
 
   const eventOrganizing = [
