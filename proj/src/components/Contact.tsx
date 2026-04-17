@@ -157,7 +157,7 @@ const Contact = () => {
             >
               <h4 className="font-bold text-xl mb-2">Available for Opportunities</h4>
               <p className="text-purple-100">
-                Open to full-time positions, internships, and freelance projects in full-stack development and ServiceNow administration.
+                Open to full-time positions, internships, and freelance projects 
               </p>
             </motion.div>
           </motion.div>

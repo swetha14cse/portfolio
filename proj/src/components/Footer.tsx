@@ -12,7 +12,8 @@ const Footer = () => {
               Swetha S
             </h3>
             <p className="text-slate-400 leading-relaxed">
-              Full-Stack Developer & ServiceNow Certified System Administrator building innovative digital solutions.
+              Computer Science Engineering student passionate about software development,
+              AI applications, and building scalable systems.
             </p>
           </div>
 
@@ -87,9 +88,9 @@ const Footer = () => {
             <p className="text-slate-400 text-sm">
               © {currentYear} Swetha S. All rights reserved.
             </p>
-            <p className="text-slate-400 text-sm flex items-center gap-2">
+            {/* <p className="text-slate-400 text-sm flex items-center gap-2">
               Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> for innovation and excellence
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

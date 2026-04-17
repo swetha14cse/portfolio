@@ -7,29 +7,29 @@ const Certifications = () => {
 
   const certifications = [
     {
-      title: 'ServiceNow Certified System Administrator',
+      title: 'ServiceNow ',
       issuer: 'ServiceNow',
       date: 'August 2025',
       featured: true,
       courses: [
-        'ServiceNow Administration Fundamentals On Demand (Xanadu)',
-        'Welcome to ServiceNow'
+        'Certified System Administrator (CSA)',
+        'Certified Application Developer (CAD)'
       ],
       verificationLink: 'https://certificate-link1.com',
       certificateImage: '/assets/certifications/servicenow.png'
     },
-    {
-      title: 'Google Cloud Platform',
-      issuer: 'Google Cloud',
-      date: '2024-2025',
-      courses: [
-        'Introduction to Gen AI',
-        'Introduction to Large Language Models',
-        'Introduction to Responsible AI'
-      ],
-      verificationLink: 'https://certificate-link2.com',
-      certificateImage: '/assets/certifications/gcp.png'
-    },
+    // {
+    //   title: 'Google Cloud Platform',
+    //   issuer: 'Google Cloud',
+    //   date: '2024-2025',
+    //   courses: [
+    //     'Introduction to Gen AI',
+    //     'Introduction to Large Language Models',
+    //     'Introduction to Responsible AI'
+    //   ],
+    //   verificationLink: 'https://certificate-link2.com',
+    //   certificateImage: '/assets/certifications/gcp.png'
+    // },
     {
       title: 'NPTEL Swayam Certifications',
       issuer: 'NPTEL',
@@ -37,19 +37,20 @@ const Certifications = () => {
       courses: [
         'Database Management System (January 2024)',
         'Cloud Computing (November 2024)',
-        'Parallel Computer Architecture (April 2025)'
+        'Parallel Computer Architecture (April 2025)',
+        'Ethical Hacking (November 2025)'
       ],
       verificationLink: 'https://certificate-link3.com',
       certificateImage: '/assets/certifications/nptel.png'
     },
-    {
-      title: 'MongoDB Basics',
-      issuer: 'MongoDB',
-      date: 'June 2025',
-      courses: ['MongoDB Basics for Students'],
-      verificationLink: 'https://certificate-link4.com',
-      certificateImage: '/assets/certifications/mongodb.png'
-    },
+    // {
+    //   title: 'MongoDB Basics',
+    //   issuer: 'MongoDB',
+    //   date: 'June 2025',
+    //   courses: ['MongoDB Basics for Students'],
+    //   verificationLink: 'https://certificate-link4.com',
+    //   certificateImage: '/assets/certifications/mongodb.png'
+    // },
     {
       title: 'CISCO Certifications',
       issuer: 'Cisco',

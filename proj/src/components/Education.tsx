@@ -83,7 +83,7 @@ const Education = () => {
 
             <div className="bg-gradient-to-br from-purple-600 to-blue-600 rounded-xl p-6 border border-purple-500/30">
               <div className="text-center">
-                <div className="text-5xl font-bold text-white mb-2">92%</div>
+                <div className="text-5xl font-bold text-white mb-2">91.5 %</div>
                 <div className="text-purple-200">Overall Score</div>
               </div>
             </div>

@@ -16,17 +16,22 @@ const Hero = () => {
           </div>
         </div>
 
-        <h1 className="text-6xl md:text-7xl font-bold text-white mb-4 tracking-tight">
-          Swetha S
-        </h1>
+       <h1 className="text-5xl font-bold">
+  Hi, I'm Swetha S
+</h1>
 
-        <div className="text-2xl md:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 mb-6">
+<p className="text-xl mt-4 text-gray-300">
+Computer Science Engineering student passionate about software development,
+AI applications, and Building intelligent digital solutions, scalable enterprise platforms.
+</p>
+
+        {/* <div className="text-2xl md:text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 mb-6">
           Full-Stack Developer | ServiceNow Certified System Administrator
-        </div>
+        </div> */}
 
-        <p className="text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
+        {/* <p className="text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
           Building intelligent digital solutions, scalable enterprise platforms and AI-powered applications.
-        </p>
+        </p> */}
 
         <div className="flex flex-wrap gap-4 justify-center">
           <a

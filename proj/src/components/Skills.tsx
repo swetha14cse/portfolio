@@ -2,32 +2,59 @@ import { Code, Database, Cloud, Boxes } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Skills = () => {
-  const skillCategories = [
-    {
-      title: 'Frontend Development',
-      icon: Code,
-      color: 'purple',
-      skills: ['React', 'JavaScript', 'HTML', 'CSS', 'Bootstrap']
-    },
-    {
-      title: 'Backend Development',
-      icon: Database,
-      color: 'blue',
-      skills: ['Node.js', 'Flask', 'Django', 'REST APIs', 'Python']
-    },
-    {
-      title: 'Database & Storage',
-      icon: Boxes,
-      color: 'green',
-      skills: ['MySQL', 'MongoDB', 'PostgreSQL', 'SQL']
-    },
-    {
-      title: 'Cloud & Enterprise',
-      icon: Cloud,
-      color: 'orange',
-      skills: ['ServiceNow', 'Google Cloud', 'LLM & GenAI', 'Java', 'C++']
-    }
-  ];
+  // const skillCategories = [
+  //   {
+  //     title: 'Frontend Development',
+  //     icon: Code,
+  //     color: 'purple',
+  //     skills: ['React', 'JavaScript', 'HTML', 'CSS', 'Bootstrap']
+  //   },
+  //   {
+  //     title: 'Backend Development',
+  //     icon: Database,
+  //     color: 'blue',
+  //     skills: ['Node.js', 'Flask', 'REST APIs', 'Python']
+  //   },
+  //   {
+  //     title: 'Database & Storage',
+  //     icon: Boxes,
+  //     color: 'green',
+  //     skills: ['MySQL', 'MongoDB',  'SQL']
+  //   },
+  //   {
+  //     title: 'Cloud & Enterprise',
+  //     icon: Cloud,
+  //     color: 'orange',
+  //     skills: ['ServiceNow', 'LLM & GenAI', 'Java', 'C++']
+  //   }
+  // ];
+
+ const skillCategories = [
+  {
+    title: 'Frontend Development',
+    icon: Code,
+    color: 'purple',
+    skills: ['React.js', 'JavaScript', 'HTML', 'CSS']
+  },
+  {
+    title: 'Backend Development',
+    icon: Database,
+    color: 'blue',
+    skills: ['Node.js', 'Flask', 'REST APIs']
+  },
+  {
+    title: 'Programming Languages',
+    icon: Boxes,
+    color: 'green',
+    skills: ['C','C++', 'Java', 'Python','JavaScript']
+  },
+  {
+    title: 'Database & Tools',
+    icon: Cloud,
+    color: 'orange',
+    skills: ['MySQL', 'MongoDB', 'Git', 'GitHub', 'ServiceNow']
+  }
+];
 
   const skillIcons = [
     { name: 'React', icon: '⚛️' },
@@ -169,10 +196,10 @@ const Skills = () => {
           viewport={{ once: true }}
         >
           <div className="flex items-center justify-center gap-8 flex-wrap">
-            <div className="text-center">
+            {/* <div className="text-center">
               <div className="text-4xl font-bold mb-2">ServiceNow</div>
               <div className="text-purple-200">Certified System Administrator</div>
-            </div>
+            </div> */}
             <div className="hidden md:block w-px h-16 bg-white/30"></div>
             <div className="text-center">
               <div className="text-4xl font-bold mb-2">15+</div>

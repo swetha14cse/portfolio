@@ -3,6 +3,14 @@ import { motion } from 'framer-motion';
 
 const Experience = () => {
   const experiences = [
+    
+    {
+      company: 'Veerel Enterprises',
+      role: 'Web Development',
+      period: 'November 2024 - June 2025',
+      description: 'Created a billing website for admin purposes and an event management system for both client and admin using React (frontend) and Django (backend).',
+      tech: ['React', 'Admin Panel']
+    },
     {
       company: 'Lux & Decibels',
       role: 'FullStack Development',
@@ -15,14 +23,7 @@ const Experience = () => {
       role: 'Frontend Development',
       period: 'May 2025 - June 2025',
       description: 'Utilized React and Bootstrap for creating a static company website with animations and modern UI/UX design.',
-      tech: ['React', 'Bootstrap', 'Animations']
-    },
-    {
-      company: 'Veerel Enterprises',
-      role: 'Web Development',
-      period: 'November 2024 - June 2025',
-      description: 'Created a billing website for admin purposes and an event management system for both client and admin using React (frontend) and Django (backend).',
-      tech: ['React', 'Django', 'Admin Panel']
+      tech: ['React',  'Animations']
     }
   ];
 
