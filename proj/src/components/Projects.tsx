@@ -308,7 +308,7 @@ const Projects = () => {
       description: 'AI-powered web tool for lawyers to predict and summarize court judgments with visual analytics and comprehensive case data storage.',
       tech: ['React', 'Flask', 'HuggingFace', 'MongoDB'],
       features: ['AI Predictions', 'Case Summarization', 'Visual Analytics', 'Case Data Storage'],
-      repoLink: 'https://github.com/swetha14cse/legalai'
+      repoLink: 'https://github.com/swetha14cse/Legal-AI-.git'
     },
 
     {
@@ -317,7 +317,7 @@ const Projects = () => {
       description: 'Real-time tracking system enabling students to register for events, view deadlines, and track participation. Admins can monitor registrations and manage records efficiently.',
       tech: ['React', 'Flask', 'SQL'],
       features: ['Student Registration', 'Admin Dashboard', 'Deadline Tracking', 'Data Filtering'],
-      repoLink: 'https://github.com/swetha14cse/hackathon-tracker'
+      repoLink: 'https://github.com/swetha14cse/Polling-web-for-Department.git'
     },
 
     {
@@ -326,7 +326,7 @@ const Projects = () => {
       description: 'Responsive ticketing system with event creation, ticket purchase, QR-code generation, and real-time booking updates for seamless event management.',
       tech: ['React', 'Flask', 'SQL','Razorpay API'],
       features: ['QR Code Generation', 'Real-time Updates', 'Event Creation', 'Secure Booking'],
-      repoLink: 'https://github.com/swetha14cse/etms'
+      repoLink: 'https://github.com/swetha14cse/Chandragiri.git'
     },
 
     {
@@ -335,7 +335,7 @@ const Projects = () => {
       description: 'Full-stack e-commerce platform with secure payment integration and comprehensive admin panel for managing products, orders, and tracking real-time transactions.',
       tech: ['React', 'Node.js', 'MySQL'],
       features: ['Admin Panel', 'Real-time Tracking', 'Secure Payments', 'Product Management'],
-      repoLink: 'https://github.com/swetha14cse/ecommerce'
+      repoLink: 'https://github.com/swetha14cse/usasya.git'
     },
 
     {
@@ -344,8 +344,21 @@ const Projects = () => {
       description: 'Full-featured fitness tracking application allowing users to log workouts, monitor calorie intake, and visualize progress through interactive dynamic charts.',
       tech: ['React', 'Node.js'],
       features: ['Workout Logging', 'Calorie Tracking', 'Interactive Charts', 'Progress Visualization'],
-      repoLink: 'https://github.com/swetha14cse/fitness-tracker'
-    }
+      repoLink: 'https://github.com/swetha14cse/codealpha_fitness_tracking_app.git'
+    },
+    {
+  title: 'AI Portfolio with Chatbot',
+  date: '2026',
+  description: 'Interactive developer portfolio featuring an AI-powered chatbot integrated using DeepSeek via OpenRouter API. Enables dynamic conversations, project explanations, and personalized user interaction.',
+  tech: ['React', 'OpenRouter API'],
+  features: [
+    'AI Chatbot Integration',
+    'Project-aware Responses',
+    'Responsive Design',
+    'Smooth Scroll Navigation'
+  ],
+  repoLink: 'https://github.com/swetha14cse/portfolio.git'
+}
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

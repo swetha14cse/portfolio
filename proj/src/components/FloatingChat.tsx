@@ -271,7 +271,22 @@ INSTRUCTIONS:
     letterSpacing: "0.5px",
   }}
 >
-  Ask Me 🤖
+  <span>Ask Me 🤖</span>
+   <button
+    onClick={() => setOpen(false)}
+    style={{
+       position: "absolute",
+      top: "8px",
+      right: "10px",
+      background: "transparent",
+      border: "none",
+      color: "white",
+      fontSize: "18px",
+      cursor: "pointer",
+    }}
+  >
+    ✖
+  </button>
 </div>
 
           {/* <div

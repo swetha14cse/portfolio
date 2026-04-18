@@ -15,7 +15,7 @@ const Certifications = () => {
         'Certified System Administrator (CSA)',
         'Certified Application Developer (CAD)'
       ],
-      verificationLink: 'https://certificate-link1.com',
+      verificationLink: 'https://drive.google.com/drive/folders/1pQ7xsW13Rhnf44n-2dbqmVEN_WTSSNu5',
       certificateImage: '/assets/certifications/servicenow.png'
     },
     // {
@@ -40,7 +40,7 @@ const Certifications = () => {
         'Parallel Computer Architecture (April 2025)',
         'Ethical Hacking (November 2025)'
       ],
-      verificationLink: 'https://certificate-link3.com',
+      verificationLink: 'https://drive.google.com/drive/folders/1JRXgEetTgGsSmp_xpfrkfXHcXuGXap7A?usp=drive_link',
       certificateImage: '/assets/certifications/nptel.png'
     },
     // {
@@ -57,17 +57,17 @@ const Certifications = () => {
       date: 'September - October 2023',
       courses: [
         'Introduction to Cybersecurity',
-        'C Essentials'
+        'CyberSecurity Essentials'
       ],
-      verificationLink: 'https://certificate-link5.com',
+      verificationLink: 'https://drive.google.com/drive/folders/1V8ZDjrLKE5hkaIJ3KSblIIylEVcdiewm',
       certificateImage: '/assets/certifications/cisco.png'
     },
     {
       title: 'Hindi Pandit',
       issuer: 'Dakshina Bharat Hindi Prachar Sabha',
       date: '2021',
-      courses: ['Completed all 8 levels'],
-      verificationLink: 'https://certificate-link6.com',
+      courses: ['Completed all 8 levels in the writing examination  conducted by Dakshina Bharat Hindi Prachar Sabha, Chennai.'],
+      verificationLink: 'https://drive.google.com/drive/folders/1CDNxOvV5pxJBF__GhL-aD0wp2UQeV5ck',
       certificateImage: '/assets/certifications/hindi.png'
     }
   ];

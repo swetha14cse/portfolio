@@ -41,7 +41,7 @@ const Education = () => {
 
             <div className="bg-white/20 backdrop-blur-sm rounded-xl p-6 border border-white/30">
               <div className="text-center">
-                <div className="text-5xl font-bold mb-2">9.01 / 10</div>
+                <div className="text-5xl font-bold mb-2">9.02 / 10</div>
                 <div className="text-purple-200">Current CGPA</div>
               </div>
             </div>

@@ -98,13 +98,20 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg mt-4 text-gray-300 max-w-xl">
-            Computer Science Engineering student passionate about software development,
-            AI applications, and building intelligent scalable systems.
+          Forward-thinking aspiring Software Engineer who is tech-savvy, adaptable, and a continuous learner. With a tech-agnostic mindset, I focus on building intuitive and efficient applications that solve real-world problems.
           </p>
 
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 justify-center md:justify-start mt-8">
-
+             {/* VIEW RESUME */}
+  <a
+    href="/swetharesumefin (1).pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-6 py-3 bg-white/10 text-white rounded-full border border-white/20 hover:bg-white/20 transition"
+  >
+    View Resume
+  </a>
             <a
               href="/swetharesumefin (1).pdf"
               download

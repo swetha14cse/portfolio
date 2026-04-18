@@ -368,10 +368,11 @@ const Achievements = () => {
   ];
 
   const danceAchievements = [
-    "9 years of Classical Dance training",
+    "9+ years of Classical Dance training",
+    "Awarded Natya Saraswathi award during Arangetram ceremony",
     "1st place - Onam College Competition",
-    "2nd Runner-up - Pongal College Competition",
-    "Choreographed multiple performances"
+    "2nd Runner-up - Pongal College Competition"
+    
   ];
 
   const nextAchievement = () => {
@@ -507,6 +508,24 @@ const Achievements = () => {
             </ul>
           </motion.div>
 
+         {/* Leadership */}
+          <motion.div
+            className="bg-white rounded-2xl p-8 shadow-lg border-t-4 border-yellow-500"
+            variants={itemVariants}
+            initial="hidden"
+            whileInView="visible"
+          >
+            <div className="flex items-center gap-4 mb-6">
+              <Crown className="w-8 h-8 text-yellow-600" />
+              <h3 className="text-xl font-bold">Leadership</h3>
+            </div>
+
+            <ul className="space-y-3">
+              {leadership.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
+          </motion.div>
 
           {/* Event Organizing */}
           <motion.div
@@ -528,25 +547,27 @@ const Achievements = () => {
           </motion.div>
 
 
-          {/* Leadership */}
-          <motion.div
-            className="bg-white rounded-2xl p-8 shadow-lg border-t-4 border-yellow-500"
-            variants={itemVariants}
-            initial="hidden"
-            whileInView="visible"
-          >
-            <div className="flex items-center gap-4 mb-6">
-              <Crown className="w-8 h-8 text-yellow-600" />
-              <h3 className="text-xl font-bold">Leadership</h3>
-            </div>
+         {/* Dance Achievements */}
+<motion.div
+  className="bg-white rounded-2xl p-8 shadow-lg border-t-4 border-pink-500"
+  variants={itemVariants}
+  initial="hidden"
+  whileInView="visible"
+>
+  <div className="flex items-center gap-4 mb-6">
+    <Music className="w-8 h-8 text-pink-600" />
+    <h3 className="text-xl font-bold">Dance Achievements</h3>
+  </div>
 
-            <ul className="space-y-3">
-              {leadership.map((item, i) => (
-                <li key={i}>{item}</li>
-              ))}
-            </ul>
-          </motion.div>
-
+  <ul className="space-y-3">
+    {danceAchievements.map((item, i) => (
+      <li key={i} className="flex items-start gap-2">
+        <span className="text-pink-500">•</span>
+        <span>{item}</span>
+      </li>
+    ))}
+  </ul>
+</motion.div>
 
           {/* Volunteering */}
           <motion.div

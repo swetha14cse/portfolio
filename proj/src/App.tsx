@@ -50,19 +50,20 @@ function App() {
       <Hero />
   
       <About />
+      <Education />
 
       <Skills />
 
       <Projects />
 
       <Experience />
+       <Certifications />
 
       <Achievements />
 
-      <Education />
+     
 
-      <Certifications />
-
+      
       {/* <EventsAndDance /> */}
     
       <Contact />
