@@ -102,7 +102,8 @@ const Hero = () => {
           </p>
 
           {/* Buttons */}
-          <div className="flex flex-wrap gap-4 justify-center md:justify-start mt-8">
+          {/* <div className="flex flex-wrap gap-4 justify-center md:justify-start mt-8"> */}
+          <div className="flex flex-wrap gap-2 justify-center md:justify-start mt-8  ">
              {/* VIEW RESUME */}
   <a
     href="/swetharesumefin (1).pdf"
