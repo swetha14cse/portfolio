@@ -570,7 +570,7 @@ const Achievements = () => {
 </motion.div>
 
           {/* Volunteering */}
-          <motion.div
+          {/* <motion.div
             className="bg-white rounded-2xl p-8 shadow-lg border-t-4 border-red-500"
             variants={itemVariants}
             initial="hidden"
@@ -586,7 +586,7 @@ const Achievements = () => {
                 <li key={i}>{item}</li>
               ))}
             </ul>
-          </motion.div>
+          </motion.div> */}
 
         </div>
       </div>
