@@ -89,8 +89,8 @@ SUMMARY:
 Computer Science Engineering student with strong problem-solving skills and hands-on experience in software development and AI-based solutions.
 
 EDUCATION:
-- B.E CSE (2023–2027), Chennai Institute of Technology – CGPA: 9.02
-- HSC Computer Science – 92%
+- B.E CSE (2023–2027), Chennai Institute of Technology – CGPA: 8.87
+- HSC Computer Science – 91.5%
 
 EXPERIENCE:
 - Web Development Intern, Veerel Enterprises (Nov 2024 – Jun 2025)
@@ -99,8 +99,6 @@ EXPERIENCE:
   Built apps using React, Flask, MySQL.
 
 PROJECTS:
-- LegalAI:
-  AI-based legal judgment prediction using Hugging Face, Flask APIs, MongoDB, React UI.
 - Hackathon Activity Tracker:
   Real-time event platform with React + Flask + SQL.
 - ETMS:
@@ -112,9 +110,9 @@ SKILLS:
 - Languages: C, Java, Python
 - Frontend: React, HTML, CSS
 - Backend: Node.js, Flask, REST APIs
-- Databases: SQL, MySQL, MongoDB
+- Databases: SQL, MySQL
 - Concepts: OOP, OS, CN, DSA
-- Tools: Git, GitHub, VS Code
+- Tools: ServiceNow, GitHub, VS Code
 
 CERTIFICATIONS:
 - ServiceNow CSA & CAD
