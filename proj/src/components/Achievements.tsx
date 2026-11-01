@@ -362,10 +362,10 @@ const Achievements = () => {
     "Managed event planning, team coordination, and technical competitions"
   ];
 
-  const volunteering = [
-    "Active member of Rotaract Club of Chennai",
-    "Participated in community service and leadership initiatives"
-  ];
+  // const volunteering = [
+  //   "Active member of Rotaract Club of Chennai",
+  //   "Participated in community service and leadership initiatives"
+  // ];
 
   const danceAchievements = [
     "9+ years of Classical Dance training",
