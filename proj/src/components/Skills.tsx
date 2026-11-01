@@ -19,7 +19,7 @@ const Skills = () => {
   //     title: 'Database & Storage',
   //     icon: Boxes,
   //     color: 'green',
-  //     skills: ['MySQL', 'MongoDB',  'SQL']
+  //     skills: ['MySQL', 'SQL']
   //   },
   //   {
   //     title: 'Cloud & Enterprise',
@@ -63,7 +63,7 @@ const Skills = () => {
     title: 'Database & Tools',
     icon: Cloud,
     color: 'orange',
-    skills: ['MySQL','SQL', 'MongoDB', 'Git', 'GitHub', 'ServiceNow']
+    skills: ['MySQL','SQL', 'Git', 'GitHub', 'ServiceNow']
   }
 ];
 
@@ -73,9 +73,9 @@ const Skills = () => {
     { name: 'JavaScript', icon: '📜' },
     { name: 'Node.js', icon: '🟢' },
     { name: 'Flask', icon: '🚀' },
-    { name: 'Django', icon: '🎯' },
+    // { name: 'Django', icon: '🎯' },
     { name: 'ServiceNow', icon: '☁️' },
-    { name: 'MongoDB', icon: '🍃' },
+    // { name: 'MongoDB', icon: '🍃' },
     { name: 'MySQL', icon: '🐬' }
     // { name: 'PostgreSQL', icon: '🐘' },
     // { name: 'Google Cloud', icon: '☁️' },
