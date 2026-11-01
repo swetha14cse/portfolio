@@ -114,7 +114,7 @@ const Hero = () => {
     View Resume
   </a>
             <a
-              href="/swetharesumefin (1).pdf"
+              href="/Res (1).pdf"
               download
               className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full font-semibold flex items-center gap-2 hover:scale-105 transition"
             >
