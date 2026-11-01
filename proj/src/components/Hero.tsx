@@ -35,7 +35,7 @@
 
 //         <div className="flex flex-wrap gap-4 justify-center">
 //           <a
-//             href="/swetharesumefin (1).pdf"
+//             href="/Res (1).pdf"
 //             download
 //             className="group px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full font-semibold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 flex items-center gap-2 transform hover:scale-105"
 //           >
