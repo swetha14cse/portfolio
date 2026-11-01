@@ -302,14 +302,14 @@ import { motion } from 'framer-motion';
 const Projects = () => {
 
   const projects = [
-    {
-      title: 'LegalAI – Case Prediction & Summarization',
-      date: 'March 2025',
-      description: 'AI-powered web tool for lawyers to predict and summarize court judgments with visual analytics and comprehensive case data storage.',
-      tech: ['React', 'Flask', 'HuggingFace', 'MongoDB'],
-      features: ['AI Predictions', 'Case Summarization', 'Visual Analytics', 'Case Data Storage'],
-      repoLink: 'https://github.com/swetha14cse/Legal-AI-.git'
-    },
+    // {
+    //   title: 'LegalAI – Case Prediction & Summarization',
+    //   date: 'March 2025',
+    //   description: 'AI-powered web tool for lawyers to predict and summarize court judgments with visual analytics and comprehensive case data storage.',
+    //   tech: ['React', 'Flask', 'HuggingFace', 'MongoDB'],
+    //   features: ['AI Predictions', 'Case Summarization', 'Visual Analytics', 'Case Data Storage'],
+    //   repoLink: 'https://github.com/swetha14cse/Legal-AI-.git'
+    // },
 
     {
       title: 'Hackathon Activity Tracker',
@@ -345,20 +345,20 @@ const Projects = () => {
       tech: ['React', 'Node.js'],
       features: ['Workout Logging', 'Calorie Tracking', 'Interactive Charts', 'Progress Visualization'],
       repoLink: 'https://github.com/swetha14cse/codealpha_fitness_tracking_app.git'
-    },
-    {
-  title: 'AI Portfolio with Chatbot',
-  date: '2026',
-  description: 'Interactive developer portfolio featuring an AI-powered chatbot integrated using DeepSeek via OpenRouter API. Enables dynamic conversations, project explanations, and personalized user interaction.',
-  tech: ['React', 'OpenRouter API'],
-  features: [
-    'AI Chatbot Integration',
-    'Project-aware Responses',
-    'Responsive Design',
-    'Smooth Scroll Navigation'
-  ],
-  repoLink: 'https://github.com/swetha14cse/portfolio.git'
-}
+    }
+//     {
+//   title: 'AI Portfolio with Chatbot',
+//   date: '2026',
+//   description: 'Interactive developer portfolio featuring an AI-powered chatbot integrated using DeepSeek via OpenRouter API. Enables dynamic conversations, project explanations, and personalized user interaction.',
+//   tech: ['React', 'OpenRouter API'],
+//   features: [
+//     'AI Chatbot Integration',
+//     'Project-aware Responses',
+//     'Responsive Design',
+//     'Smooth Scroll Navigation'
+//   ],
+//   repoLink: 'https://github.com/swetha14cse/portfolio.git'
+// }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
